@@ -1,0 +1,188 @@
+[
+    {
+        "username": "@TheCoffeeGuyRI",
+        "tweet": null,
+        "geo": null,
+        "name": "The Coffee Guy"
+    },
+    {
+        "username": "@ROXYSLOBSTER",
+        "tweet": null,
+        "geo": null,
+        "name": "ROXY'S LOBSTER"
+    },
+    {
+        "username": "@NobleKnots",
+        "tweet": null,
+        "geo": null,
+        "name": "Noble Knots"
+    },
+    {
+        "username": "@ploufplouftruck",
+        "tweet": null,
+        "geo": null,
+        "name": "plouf gastronomie"
+    },
+    {
+        "username": "@MootzaDeli",
+        "tweet": null,
+        "geo": null,
+        "name": "MootzaDeli"
+    },
+    {
+        "username": "@FugoFoodTruck",
+        "tweet": null,
+        "geo": null,
+        "name": "Fugo"
+    },
+    {
+        "username": "@LikeNoUdder",
+        "tweet": null,
+        "geo": null,
+        "name": "Like No Udder"
+    },
+    {
+        "username": "@rockettruck",
+        "tweet": null,
+        "geo": null,
+        "name": "Rocket Street Food"
+    },
+    {
+        "username": "@RollwithitRI",
+        "tweet": null,
+        "geo": null,
+        "name": "Roll With It"
+    },
+    {
+        "username": "@SproutTruck",
+        "tweet": null,
+        "geo": null,
+        "name": "Sprout!"
+    },
+    {
+        "username": "@MamaKimsKbbq",
+        "tweet": null,
+        "geo": null,
+        "name": "Mama Kim's"
+    },
+    {
+        "username": "@FlourGirlsTreat",
+        "tweet": null,
+        "geo": null,
+        "name": "Flour Girls Baking"
+    },
+    {
+        "username": "@fancheezical",
+        "tweet": null,
+        "geo": null,
+        "name": "FanCheezical"
+    },
+    {
+        "username": "@LotusPepper",
+        "tweet": null,
+        "geo": null,
+        "name": "Lotus Pepper"
+    },
+    {
+        "username": "@EddiesBBQ",
+        "tweet": null,
+        "geo": null,
+        "name": "Eddie's BBQ"
+    },
+    {
+        "username": "@sugarushtruck",
+        "tweet": null,
+        "geo": null,
+        "name": "sugarush"
+    },
+    {
+        "username": "@MijosTacos",
+        "tweet": null,
+        "geo": null,
+        "name": "Mijos Tacos"
+    },
+    {
+        "username": "@PTacosMobile",
+        "tweet": null,
+        "geo": null,
+        "name": "Paco"
+    },
+    {
+        "username": "@PVDpops",
+        "tweet": null,
+        "geo": null,
+        "name": "PVD Pudding Pops"
+    },
+    {
+        "username": "@joedegacoffee",
+        "tweet": null,
+        "geo": null,
+        "name": "Joedega"
+    },
+    {
+        "username": "@CJammersTruck",
+        "tweet": null,
+        "geo": null,
+        "name": "ClamJammersFoodTruck"
+    },
+    {
+        "username": "asmedrano",
+        "tweet": "Test #FTFT",
+        "geo": {
+            "type": "Point",
+            "coordinates": [
+                41.8153657,
+                -71.4030908
+            ]
+        },
+        "name": "Angel"
+    },
+    {
+        "username": "@GoSpressoRI",
+        "tweet": null,
+        "geo": null,
+        "name": "Go-SpressoRI"
+    },
+    {
+        "username": "@PaninoExpress",
+        "tweet": null,
+        "geo": null,
+        "name": "Panino Express Truck"
+    },
+    {
+        "username": "@pocolocotacos",
+        "tweet": null,
+        "geo": null,
+        "name": "Poco Loco Tacos"
+    },
+    {
+        "username": "@PORTU_GALO",
+        "tweet": null,
+        "geo": null,
+        "name": "PORTU-GALO"
+    },
+    {
+        "username": "@ChampMelt",
+        "tweet": null,
+        "geo": null,
+        "name": "Championship Melt"
+    },
+    {
+        "username": "@whereisradish",
+        "tweet": null,
+        "geo": null,
+        "name": "Radish"
+    },
+    {
+        "username": "@munchiesft",
+        "tweet": null,
+        "geo": null,
+        "name": "Munchies Food Truck"
+    },
+    {
+        "username": "@ChezPascal",
+        "tweet": null,
+        "geo": null,
+        "name": "Chez Pascal Truck"
+    }
+]
