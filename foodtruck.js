@@ -4,7 +4,7 @@ var createMap = function(){
 
 	map = L.map('map', {center: [41.823941 , -71.413107], zoom: 13,});
 
-			L.tileLayer('http://{s}.tile.cloudmade.com/3f5b57dc465a4014bb5d73515837510e/2400/256/{z}/{x}/{y}.png', {
+			L.tileLayer('http://{s}.tile.cloudmade.com/7fa441524a5e40f580929fae29a885e6/83513/256/{z}/{x}/{y}.png', {
 				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
 				maxZoom: 18
 			}).addTo(map);
