@@ -19,6 +19,8 @@
 			var geoCoords;
 			$(document).ready(function(){
 				$.getJSON('https://pvdfoodtruckfinder.appspot.com', function(truckUpdates){
+
+					$("#ldng").remove();
 					
 					for(var i in truckUpdates){
 						update = truckUpdates[i];
@@ -40,13 +42,14 @@
 
 	<body>
 
+		<div id="ldng"></div>
 		<header id="main">
 			<img src="truckImage.svg">
 			<h1>PVD Food Truck Finder</h1>
 		</header>
 
 		<div id="map" class="">
-		<div id="ldng"></div>
+	
 		</div>
 		<div id="intro">
 			Welcome to the Providence Food Truck Tracker! Are you tired of constantly wondering where in the world those tasty food trucks are going to be parked today? Worry no more. Any time a food truck tweets their location, that information is sent directly to this nifty mapper. Now, you can locate your favorite food truck every day of the week! So, come on, let's get to trackin'. <b>PVD Food Trucks</b> can update thier location by enabling Geo Location on Twitter and using hash tag #FTF.
