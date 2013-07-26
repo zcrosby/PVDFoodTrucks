@@ -25,7 +25,32 @@ var addTruckToMap = function(geoCoords, truckName, tweet){
 		marker.bindPopup("<b>" + truckName + "</b>" + "<br>" + tweetAddress).openPopup();
 }
 		
+
+function success(pos){
+		
+		var coord = pos.coords;
+  		var currentLatLon = [coord.latitude, coord.longitude];
+
+  		// Now add user to map using leaflet, their position will constantly be updated
+		var YouAreHere = L.icon({
+					    iconUrl: 'YouAreHere.svg',
+						iconSize:     [38, 95], // size of the icon
+					    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+					    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+					});
+
+		var marker = L.marker(currentLatLon, {icon: YouAreHere}).addTo(map);
+
+		marker.bindPopup("<b>" +"You are Here"+ "</b>" + "<br>").openPopup();
+}
+
+function error(err){
+		console.warn('ERROR(' + err.code + '): ' + err.message);
+}
+	
+
 createMap();
+
 
 
 

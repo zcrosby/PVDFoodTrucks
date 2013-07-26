@@ -24,7 +24,8 @@
 	
 		</div>
 		<div id="intro">
-			Welcome to the Providence Food Truck Tracker! Are you tired of constantly wondering where in the world those tasty food trucks are going to be parked today? Worry no more. Any time a food truck tweets their location, that information is sent directly to this nifty mapper. Now, you can locate your favorite food truck every day of the week! So, come on, let's get to trackin'. <b>PVD Food Trucks</b> can update thier location by enabling Geo Location on Twitter and using hash tag #FTF.
+			<b>Welcome</b> to the Providence Food Truck Tracker! Are you tired of constantly wondering where in the world those tasty food trucks are going to be parked today? Worry no more. Any time a food truck tweets their location, that information is sent directly to this nifty mapper. Now, you can locate your favorite food truck every day of the week! So, come on, let's get to trackin'. 
+			<b>Attention: PVD Food Trucks</b> you can update your location by enabling Geo Location on Twitter and using hash tag #FTF.
 		</div>
 		<script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
 			<script src="foodtruck.js"></script>
@@ -40,12 +41,31 @@
 
 					$("#ldng").remove();
 					
+
+
+					if(navigator.geolocation){
+						var options = {
+							enableHighAccuracy: true,
+							timeout: 5000,
+							maximumAge: 0
+						};
+						
+						navigator.geolocation.watchPosition(success, error, options);
+						/*use watchPosition instead of getCurrentLocation b/c it creates a timer that periodically gathers the user's current position and it's more accurate*/
+					}
+					else{
+
+						console.log("Geo Location not supported");
+					};
+
 					for(var i in truckUpdates){
 						update = truckUpdates[i];
 						truckName = update['username'];
 						tweetAddress = update['tweet'];
 						if(update['geo'] !== null){
-							// there is valid geo points here so do something
+							// there are valid geo points 
+
+
 							geoCoords = update['geo']['coordinates'];
 						
 							addTruckToMap(geoCoords, truckName, tweetAddress);	
